@@ -98,7 +98,7 @@ function App() {
             padding: "10px 20px",
             backgroundColor: "green",
             color: "white",
-            border: "none",
+            border: "1px solid black",
             cursor: "pointer",
           }}
         >
@@ -112,7 +112,7 @@ function App() {
             //backgroundColor: imageUrl ? "#28a745" : "#6c757d",
             backgroundColor: "yellow",
             color: "black",
-            border: "none",
+            border: "1px solid black",
             cursor: imageUrl ? "pointer" : "not-allowed",
           }}
         >
