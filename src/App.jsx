@@ -251,7 +251,7 @@ function App() {
               padding: "14px 28px",
               backgroundColor: loading ? "#b8b8b8" : "#667eea",
               color: "white",
-              border: "2px solid white",
+              border: "none",
               borderRadius: "50px",
               cursor: loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
@@ -286,21 +286,7 @@ function App() {
             ) : (
               <>
                 <span>New Quote</span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4 4V9H4.58152M19 20C16.796 20 14.8785 18.7724 13.7325 16.8572M4.58152 9C6.15559 6.20228 8.84441 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C9.4427 20 7.2341 18.7832 5.90115 16.8572M4.58152 9H9"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                
               </>
             )}
           </button>
@@ -312,7 +298,7 @@ function App() {
               padding: "14px 28px",
               backgroundColor: !imageUrl || loading ? "#b8b8b8" : "#f39c12",
               color: "black",
-              border: "2px solid white",
+              border: "none",
               borderRadius: "50px",
               cursor: !imageUrl || loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
@@ -370,7 +356,7 @@ function App() {
               padding: "14px 28px",
               backgroundColor: !imageUrl || loading ? "#b8b8b8" : "#25D366",
               color: "white",
-              border: "2px solid white",
+              border: "none",
               borderRadius: "50px",
               cursor: !imageUrl || loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
