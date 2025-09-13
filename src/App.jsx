@@ -228,7 +228,7 @@ function App() {
                 maxHeight: "400px",
                 borderRadius: "8px",
                 boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
-                border: "2px solid white",
+                border: "none",
               }}
               onError={() => setError("Image failed to load")}
             />
