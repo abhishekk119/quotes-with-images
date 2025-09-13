@@ -128,9 +128,7 @@ function App() {
         height: "875px",
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
 
-        justifyContent: "center",
         padding: "20px",
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
