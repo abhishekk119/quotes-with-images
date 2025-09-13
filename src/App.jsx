@@ -139,6 +139,7 @@ function App() {
       <div
         style={{
           backgroundColor: "#1a1a1a",
+          boxShadow:  "0 0 15px rgba(255, 255, 255, 0.9)",
           padding: "15px",
           display: "flex",
           flexDirection: "column",
