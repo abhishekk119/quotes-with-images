@@ -127,7 +127,8 @@ function App() {
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
-
+        alignItems: "center",
+        justifyContent: "flex-start",
         padding: "20px",
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
