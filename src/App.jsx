@@ -132,28 +132,27 @@ function App() {
         padding: "20px",
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        backgroundColor: "black",
         color: "#333",
       }}
     >
       <div
         style={{
-          backgroundColor: "rgba(255, 255, 255, 0.95)",
-          borderRadius: "20px",
-          padding: "40px",
-          boxShadow: "0 20px 40px rgba(0, 0, 0, 0.1)",
-          maxWidth: "800px",
-          width: "100%",
-          textAlign: "center",
-          backdropFilter: "blur(10px)",
-          border: "1px solid rgba(255, 255, 255, 0.2)",
+          backgroundColor: "#1a1a1a",
+          padding: "15px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          borderRadius: "8px",
         }}
       >
         <h1
           style={{
             margin: "0 0 30px 0",
-            fontSize: "2.5rem",
+            fontSize: "35px",
             fontWeight: "700",
+            textAlign: "center",
             background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -174,7 +173,6 @@ function App() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              minHeight: "300px",
             }}
           >
             <div
@@ -213,7 +211,7 @@ function App() {
           className="qimage-div"
           style={{
             margin: "20px 0",
-            minHeight: "300px",
+
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -227,9 +225,9 @@ function App() {
               style={{
                 maxWidth: "100%",
                 maxHeight: "400px",
-                borderRadius: "12px",
+                borderRadius: "8px",
                 boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
+                border: "2px solid white",
               }}
               onError={() => setError("Image failed to load")}
             />
@@ -252,11 +250,11 @@ function App() {
               padding: "14px 28px",
               backgroundColor: loading ? "#b8b8b8" : "#667eea",
               color: "white",
-              border: "none",
+              border: "2px solid white",
               borderRadius: "50px",
               cursor: loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
-              fontWeight: "600",
+
               transition: "all 0.3s ease",
               boxShadow: loading
                 ? "none"
@@ -313,11 +311,11 @@ function App() {
               padding: "14px 28px",
               backgroundColor: !imageUrl || loading ? "#b8b8b8" : "#f39c12",
               color: "black",
-              border: "none",
+              border: "2px solid white",
               borderRadius: "50px",
               cursor: !imageUrl || loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
-              fontWeight: "600",
+
               transition: "all 0.3s ease",
               boxShadow:
                 !imageUrl || loading
@@ -371,11 +369,11 @@ function App() {
               padding: "14px 28px",
               backgroundColor: !imageUrl || loading ? "#b8b8b8" : "#25D366",
               color: "white",
-              border: "none",
+              border: "2px solid white",
               borderRadius: "50px",
               cursor: !imageUrl || loading ? "not-allowed" : "pointer",
               fontSize: "1rem",
-              fontWeight: "600",
+
               transition: "all 0.3s ease",
               boxShadow:
                 !imageUrl || loading
