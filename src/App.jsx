@@ -124,10 +124,12 @@ function App() {
     <div
       className="container"
       style={{
-        minHeight: "100vh",
+        overflowY: "hidden",
+        height: "875px",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+
         justifyContent: "center",
         padding: "20px",
         fontFamily:
