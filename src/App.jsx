@@ -124,8 +124,7 @@ function App() {
     <div
       className="container"
       style={{
-        overflowY: "hidden",
-        height: "875px",
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
 
@@ -421,8 +420,13 @@ function App() {
           }
           
           body {
-            margin: 0;
-          }
+      margin: 0;
+      overflow: hidden; /* Prevent scrolling */
+    }
+    
+    html, body, #root {
+      height: 100%;
+    }
         `}
       </style>
     </div>
